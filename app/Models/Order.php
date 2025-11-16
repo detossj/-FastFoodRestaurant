@@ -13,4 +13,16 @@ class Order extends Model
         'total',
         'payment_method'
     ];
+
+    public function user() {
+        return $this->belongsTo(User::class);
+    }
+
+    public function cart() {
+        return $this->belongsTo(Cart::class);
+    }
+
+    public function orderItems() {
+        return $this->hasMany(OrderItems::class);
+    }
 }
