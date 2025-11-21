@@ -2,13 +2,16 @@ import React from 'react'
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import Example from './components/Example'
+import LayoutPublic from './layouts/LayoutPublic';
 
 const App = () => {
   return (
     <Router>
         <Routes>
-            <Route index element={ <Example/> }/>
+            <Route path='/' element={<LayoutPublic/>}>
+
+
+            </Route>
         </Routes>
     </Router>
   )
