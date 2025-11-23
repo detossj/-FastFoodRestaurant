@@ -20,10 +20,16 @@ class Product extends Model
     }
 
     public function orderItems() {
-        return $this->hasMany(OrderItems::class);
+        return $this->hasMany(OrderItem::class);
     }
 
     public function cartItems() {
-        return $this->hasMany(CartItems::class);
+        return $this->hasMany(CartItem::class);
     }
+
+    public function promotionItems()
+    {
+        return $this->hasMany(PromotionItem::class);
+    }
+
 }
