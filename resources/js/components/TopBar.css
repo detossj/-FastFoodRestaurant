@@ -7,11 +7,11 @@
   
   /* Hover normal */
   .topbar-item:hover {
-    color: orange;
+    color: rgb(249, 124, 47);
   }
   
   /* Activo (NavLink activo) */
   .topbar-item.active {
-    color: orange !important;
+    color: rgb(249, 124, 47) !important;
   }
   
