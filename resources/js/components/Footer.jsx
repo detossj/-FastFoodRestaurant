@@ -3,7 +3,7 @@ import logo from '../../assets/images/logo.webp';
 
 const Footer = () => {
   return (
-    <footer className="footer-papa py-5 mt-5" style={{backgroundColor: "rgb(234, 239, 234)"}}>
+    <footer className="footer-papa py-5" style={{backgroundColor: "rgb(234, 239, 234)"}}>
       <div className="container">
 
         <div className="row mb-4">
