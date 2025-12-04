@@ -1,15 +1,28 @@
 .navbar-item {
-    color: black;
-    padding: 6px 12px;
-    text-decoration: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-  }
+  color: black;
+  padding: 6px 12px;
+  text-decoration: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
   
-  .navbar-item.active {
-    background-color: rgb(249, 124, 47);
-    color: white !important;
-    border-radius: 15px;
-    padding: 10px;
-  }
+.navbar-item.active {
+  background-color: rgb(249, 124, 47);
+  color: white !important;
+  border-radius: 15px;
+  padding: 10px;
+}
+.navbar-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* cuando aparezca el logo, mover INICIO un poco a la derecha */
+.with-logo .nav-item:first-child {
+  margin-left: 20px; 
+}
+
   
