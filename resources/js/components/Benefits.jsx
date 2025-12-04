@@ -21,7 +21,7 @@ const Benefits = () => {
                 <div className="text-warning mb-3">
                   {item.icon}
                 </div>
-                <h6 className="fw-bold">{item.title}</h6>
+                <h6 className="fw-bold" style={{ fontSize: "20px", color: "black" }}>{item.title}</h6>
                 <p style={{ fontSize: "16px", color: "#555" }}>{item.text}</p>
               </div>
             </div>
