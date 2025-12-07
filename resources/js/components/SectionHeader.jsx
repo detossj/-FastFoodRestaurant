@@ -1,8 +1,11 @@
 import React from 'react'
 
-const SectionHeader = () => {
+const SectionHeader = ({title, description}) => {
   return (
-    <div>SectionHeader</div>
+    <div>
+      <h1>{title}</h1>
+      <h3>{description}</h3>
+    </div>
   )
 }
 
