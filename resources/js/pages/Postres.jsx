@@ -1,8 +1,9 @@
 import React from 'react'
+import ItemsList from '../components/ItemsList'
 
 const Postres = () => {
   return (
-    <div>Postres</div>
+    <ItemsList id={5}/>
   )
 }
 
