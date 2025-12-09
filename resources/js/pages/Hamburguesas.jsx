@@ -1,8 +1,9 @@
 import React from 'react'
+import ItemsList from '../components/ItemsList'
 
 const Hamburguesas = () => {
   return (
-    <div>Hamburguesas</div>
+    <ItemsList id={3}/>
   )
 }
 
