@@ -95,7 +95,7 @@ class ProductSeeder extends Seeder
                     'name'        => $name,
                     'description' => $description,
                     'price'       => $price,
-                    'image_url'   => 'images/' . \Str::slug($name) . '.jpg',
+                    'image_url'   => '/' . \Str::slug($name) . '.webp',
                     'available'   => true,
                 ]);
             }
