@@ -29,7 +29,7 @@ const ItemsList = ({id}) => {
 
   useEffect(() => {
     LoadProducts()
-  },[]); 
+  },[id]); 
 
   if (loading) {
     return (
@@ -39,12 +39,12 @@ const ItemsList = ({id}) => {
 
   return (
     <>
-      <div className='container p-5' style={{ minHeight: "100vh" }}>
-        {
-          products.map((product) => {
-            return <ItemCard product={product}/>
-          })
-        }
+      <div className="container p-5" style={{ minHeight: "100vh" }}>
+        <div className="d-flex flex-wrap gap-4 justify-content-center">
+          {products.map(product => (
+            <ItemCard key={product.id} product={product} />
+          ))}
+        </div>
       </div>
     </>
   )
