@@ -1,8 +1,10 @@
 import axios from "axios";
 
-const base_api_url = "http://localhost:8000/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
+const API_URL = `${API_BASE_URL}/api`;
 
 export default {
-
-    getProductsByCategory: (id) => axios.get(`${base_api_url}/category/${id}/products`),
-}
+    API_BASE_URL,
+    getProductsByCategory: (id) => axios.get(`${API_URL}/category/${id}/products`),
+};
