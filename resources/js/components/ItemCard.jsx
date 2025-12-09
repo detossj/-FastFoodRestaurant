@@ -7,16 +7,13 @@ const ItemCard = ({ product }) => {
     <div className="product-card shadow rounded p-3">
 
       <div className="product-img-wrapper mb-3">
-        <img 
-          src={`${Config.API_BASE_URL}/storage/products/${product.image_url}`} 
-          alt={product.name} 
-          className="product-img"
-          loading='lazy'
-        />
+      <img 
+        src={`${Config.API_BASE_URL}/storage/products${product.image_url}`}
+        alt={product.name}
+        className="product-img"
+        loading='lazy'
+      />
       </div>
-
-
-
 
       <h5 className="fw-bold text-center">{product.name}</h5>
 
