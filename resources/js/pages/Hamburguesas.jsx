@@ -3,7 +3,7 @@ import ItemsList from '../components/ItemsList'
 
 const Hamburguesas = () => {
   return (
-    <ItemsList id={3}/>
+    <ItemsList id={2}/>
   )
 }
 
