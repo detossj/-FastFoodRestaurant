@@ -1,6 +1,6 @@
 .product-card {
     width: 260px;
-    height: 420px; 
+    height: 450px; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
