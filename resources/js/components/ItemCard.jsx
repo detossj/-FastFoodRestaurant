@@ -12,6 +12,9 @@ const ItemCard = ({ product }) => {
           alt={product.name}
           className="product-img"
           loading='lazy'
+          decoding="async"
+          width="260"
+          height="260"
         />
       </div>
 
