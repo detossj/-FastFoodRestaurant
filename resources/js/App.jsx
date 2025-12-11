@@ -13,6 +13,7 @@ import Acompañamientos from './pages/Acompañamientos';
 import Bebidas from './pages/Bebidas';
 import Postres from './pages/Postres';
 import Extras from './pages/Extras';
+import { ProductsProvider } from './context/ProductsContext';
 
 
 const App = () => {
@@ -40,8 +41,10 @@ if (document.getElementById('root')) {
     const Index = ReactDOM.createRoot(document.getElementById("root"));
 
     Index.render(
-      <React.StrictMode>
-        <App/>
-      </React.StrictMode>
+      <ProductsProvider>
+        <React.StrictMode>
+          <App/>
+        </React.StrictMode>
+      </ProductsProvider>
     )
 }
