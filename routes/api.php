@@ -7,7 +7,7 @@ use App\Http\Controllers\ProductController;
 
 // Public
 
-Route::get('category/{id}/products', [ProductController::class,'productsByCategory']);
+Route::get('/products', [ProductController::class,'allProducts']);
 
 Route::get('/user', function (Request $request) {
     return $request->user();
