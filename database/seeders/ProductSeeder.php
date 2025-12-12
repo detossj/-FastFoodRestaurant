@@ -50,7 +50,7 @@ class ProductSeeder extends Seeder
                 ['Coca-Cola Zero 350ml', 'Versión sin azúcar.', 1500],
                 ['Sprite 350ml', 'Bebida limón-lima.', 1500],
                 ['Fanta Naranja 350ml', 'Bebida sabor naranja.', 1500],
-                ['Agua Mineral', 'Agua pura y refrescante.', 1200],
+                ['Cachantun', 'Agua pura y refrescante.', 1200],
                 ['Jugo Natural Naranja', 'Jugo exprimido natural.', 2000],
                 ['Jugo Natural Mango', 'Jugo fresco sabor mango.', 2000],
                 ['Té Helado Durazno', 'Té frío sabor durazno.', 1800],
