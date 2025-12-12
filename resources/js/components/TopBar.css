@@ -1,17 +1,17 @@
 .topbar-item {
-    color: black;
-    text-decoration: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-  }
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
   
-  /* Hover normal */
-  .topbar-item:hover {
-    color: rgb(249, 124, 47);
-  }
-  
-  /* Activo (NavLink activo) */
-  .topbar-item.active {
-    color: rgb(249, 124, 47) !important;
-  }
+/* Hover normal */
+.topbar-item:hover {
+  color: rgb(249, 124, 47);
+}
+
+/* Activo (NavLink activo) */
+.topbar-item.active {
+  color: rgb(249, 124, 47);
+}
   
