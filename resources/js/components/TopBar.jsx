@@ -23,7 +23,9 @@ const TopBar = () => {
       <div className="container d-flex justify-content-between align-items-center">
 
           <div className="d-flex align-items-center">
-            <img src={logo} alt="Logo" style={{ height: '70px', cursor: 'pointer' }}/>
+            <NavLink to="/">
+              <img src={logo} alt="Logo" style={{ height: '70px', cursor: 'pointer' }}/>
+            </NavLink>
           </div>
 
           <div className="d-flex align-items-center gap-4">
